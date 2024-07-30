@@ -13,3 +13,4 @@ https://girlwhodoesai.github.io/APCSP/AAP-2.F.html
 https://girlwhodoesai.github.io/APCSP/AAP-2.G.html
 https://girlwhodoesai.github.io/APCSP/index.html
 https://girlwhodoesai.github.io/APCSA/index.html
+https://girlwhodoesai.github.io/APCSA/variables.html
