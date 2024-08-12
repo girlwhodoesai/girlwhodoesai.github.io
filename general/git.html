@@ -1,0 +1,356 @@
+<html>
+
+<head>
+    		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PRRFTJ9K1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-5PRRFTJ9K1');
+		</script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		  body {
+			  width: 70%; 
+			  margin: 0 auto; /* Center align the body */
+		  }
+		</style>
+		<title>
+            Introduction to Version Control and Git for absolute beginners</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Mangal;
+	panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+.MsoChpDefault
+	{font-size:11.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+	<div id="header"></div>
+<div class=WordSection1>
+
+<p class=MsoNormal><b><span style='font-size:22.0pt;line-height:107%'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:24.0pt;line-height:107%'>Introduction
+to Version Control and Git for absolute beginners</span></b></p>
+<br>
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>1.
+Introduction to Version Control</span></b></p>
+
+<p class=MsoNormal><b>What is Version Control?</b></p>
+
+<p class=MsoNormal>Version control is a system that helps you manage changes to
+your files, especially code, over time. Imagine you're working on a programming
+project, and you want to keep track of the changes you make so you can go back
+to a previous version if something goes wrong. Version control systems (VCS) do
+just that! They record changes to a file or set of files, allowing you to
+revert to specific versions, compare different versions, and collaborate with
+others.</p>
+
+<p class=MsoNormal><b>Benefits of Version Control</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Collaboration</b>: Version control systems allow
+     multiple people to work on a project simultaneously. You can track who
+     made changes, when, and why. This is essential in team projects.</li>
+ <li class=MsoNormal><b>History Tracking</b>: Every change you make is recorded
+     with a timestamp and a message explaining what was done. You can look back
+     at the history of your project and see how it evolved.</li>
+ <li class=MsoNormal><b>Rollback</b>: If a mistake is made, you can easily
+     revert to a previous version of the project without losing any work.</li>
+ <li class=MsoNormal><b>Branching</b>: You can create branches to work on
+     different features or versions of your project without affecting the main
+     codebase.</li>
+</ul>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>2.
+Introduction to Git</span></b></p>
+
+<p class=MsoNormal><b>What is Git?</b></p>
+
+<p class=MsoNormal>Git is a distributed version control system. This means that
+every developer working on a project has a complete copy of the project's
+history on their computer. Unlike centralized systems where all the history is
+stored on a single server, Git allows for more flexibility and reliability. You
+can work offline, and your changes can be shared with others when you're ready.</p>
+
+<p class=MsoNormal><b>Basic Git Terminology</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Repository (Repo)</b>: A repository is like a storage
+     box where all your project files and the complete history of changes are
+     kept. It can be local (on your computer) or remote (on a platform like
+     GitHub).</li>
+ <li class=MsoNormal><b>Commit</b>: A commit is a snapshot of your project at a
+     particular point in time. It includes all the changes made since the last
+     commit and is accompanied by a message explaining what was changed.</li>
+ <li class=MsoNormal><b>Branch</b>: A branch is a separate line of development
+     in your project. It allows you to work on different features or versions
+     of your project independently. The main branch is often called main or master.</li>
+ <li class=MsoNormal><b>Merge</b>: Merging is the process of combining changes
+     from one branch into another. For example, once a new feature is complete,
+     you might merge the feature branch into the main branch.</li>
+ <li class=MsoNormal><b>Clone</b>: Cloning means making a copy of a repository
+     from a remote server to your local machine. This allows you to work on the
+     project locally.</li>
+ <li class=MsoNormal><b>Pull</b>: Pulling means downloading the latest changes
+     from a remote repository to your local repository.</li>
+ <li class=MsoNormal><b>Push</b>: Pushing means uploading your changes from
+     your local repository to a remote repository, making them available to
+     others.</li>
+</ul>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>3.
+Setting Up Git</span></b></p>
+
+<p class=MsoNormal><b>Installing Git</b></p>
+
+<p class=MsoNormal>To start using Git, you need to install it on your computer.
+Here's a quick guide for different operating systems:</p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Windows</b>:</li>
+ <ol style='margin-top:0in' start=1 type=1>
+  <li class=MsoNormal>Download the Git installer from <a
+      href="https://git-scm.com/download/win" target="_new">git-scm.com</a>.</li>
+  <li class=MsoNormal>Run the installer and follow the prompts. You can use the
+      default settings.</li>
+  <li class=MsoNormal>Once installed, open the Git Bash terminal to start using
+      Git.</li>
+ </ol>
+ <li class=MsoNormal><b>macOS</b>:</li>
+ <ol style='margin-top:0in' start=1 type=1>
+  <li class=MsoNormal>Open the Terminal application.</li>
+  <li class=MsoNormal>Type the following command and press Enter:</li>
+ </ol>
+</ul>
+
+<p class=MsoNormal>git --version</p>
+
+<ul style='margin-top:0in' type=disc>
+ <ol style='margin-top:0in' start=3 type=1>
+  <li class=MsoNormal>If Git is not installed, you'll be prompted to install
+      it. Follow the instructions.</li>
+ </ol>
+ <li class=MsoNormal><b>Linux</b>:</li>
+ <ol style='margin-top:0in' start=1 type=1>
+  <li class=MsoNormal>Open the terminal.</li>
+  <li class=MsoNormal>Install Git by running the following command:</li>
+ </ol>
+</ul>
+
+<p class=MsoNormal>sudo apt-get install git</p>
+
+<ul style='margin-top:0in' type=disc>
+ <ol style='margin-top:0in' start=3 type=1>
+  <li class=MsoNormal>Once installed, you can verify by typing:</li>
+ </ol>
+</ul>
+
+<p class=MsoNormal>git --version</p>
+
+<p class=MsoNormal><b>Configuring Git</b></p>
+
+<p class=MsoNormal>Before you start using Git, you need to set up your
+identity. This is important because every Git commit uses this information.</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal>Open your terminal (or Git Bash on Windows).</li>
+ <li class=MsoNormal>Set your username with the following command:</li>
+</ol>
+
+<p class=MsoNormal>git config --global user.name &quot;Your Name&quot;</p>
+
+<ol style='margin-top:0in' start=3 type=1>
+ <li class=MsoNormal>Set your email address with this command:</li>
+</ol>
+
+<p class=MsoNormal>git config --global user.email &quot;your.email@example.com&quot;</p>
+
+<p class=MsoNormal><b>Creating a Repository</b></p>
+
+<p class=MsoNormal>To start a new project with Git:</p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal>Navigate to your project directory in the terminal:</li>
+</ol>
+
+<p class=MsoNormal>cd path/to/your/project</p>
+
+<ol style='margin-top:0in' start=2 type=1>
+ <li class=MsoNormal>Initialize a new Git repository:</li>
+</ol>
+
+<p class=MsoNormal>git init</p>
+
+<p class=MsoNormal>This creates a hidden .git folder in your project directory.
+Now, your project is under version control!</p>
+<br>
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:107%'>4. Basic
+Git Commands</span></b></p>
+
+<p class=MsoNormal>Now that your project is set up, let's go over some basic
+Git commands.</p>
+
+<p class=MsoNormal><b>1. git init</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Initializes a new Git repository in your
+     project directory.</li>
+ <li class=MsoNormal><b>Usage</b>: git init</li>
+</ul>
+
+<p class=MsoNormal><b>2. git add</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Adds changes to the staging area. The
+     staging area is where you prepare your changes before committing them.</li>
+ <li class=MsoNormal><b>Usage</b>: git add filename</li>
+</ul>
+
+<p class=MsoNormal>To add all changes:</p>
+
+<p class=MsoNormal>git add .</p>
+
+<p class=MsoNormal><b>3. git commit</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Commits the changes in the staging area to
+     the repository with a message.</li>
+ <li class=MsoNormal><b>Usage</b>:</li>
+</ul>
+
+<p class=MsoNormal>git commit -m &quot;Your commit message&quot;</p>
+
+<p class=MsoNormal><b>4. git status</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Shows the status of changes in your
+     working directory. It tells you which files are modified, staged, or
+     untracked.</li>
+ <li class=MsoNormal><b>Usage</b>:</li>
+</ul>
+
+<p class=MsoNormal>git status</p>
+
+<p class=MsoNormal><b>5. git log</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Displays the commit history for the
+     repository. This is useful for reviewing past commits.</li>
+ <li class=MsoNormal><b>Usage</b>:</li>
+</ul>
+
+<p class=MsoNormal>git log</p>
+
+<p class=MsoNormal><b>6. git branch</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Lists all branches in your repository or
+     creates a new branch.</li>
+ <li class=MsoNormal><b>Usage</b>:</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal>To list all branches:</li>
+ </ul>
+</ul>
+
+<p class=MsoNormal>git branch</p>
+
+<ul style='margin-top:0in' type=disc>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal>To create a new branch:</li>
+ </ul>
+</ul>
+
+<p class=MsoNormal>git branch branch-name</p>
+
+<p class=MsoNormal><b>7. git merge</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Merges the changes from one branch into
+     another.</li>
+ <li class=MsoNormal><b>Usage</b>:</li>
+</ul>
+
+<p class=MsoNormal>git merge branch-name</p>
+
+<p class=MsoNormal><b>8. git checkout</b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b>Purpose</b>: Switches to a different branch.</li>
+ <li class=MsoNormal><b>Usage</b>:</li>
+</ul>
+
+<p class=MsoNormal>git checkout branch-name</p>
+
+<p class=MsoNormal>With these basics, you're ready to start using Git to manage
+your projects and collaborate with others! Remember, practice makes perfect, so
+try these commands out on a small project to get comfortable with version
+control.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8607681845167073"
+        crossorigin="anonymous"></script>
+        <!-- tan-apcsa -->
+        <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-8607681845167073"
+        data-ad-slot="4753972224"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <div id="footer"></div> 
+    <script src="https://girlwhodoesai.github.io/APCSA/headerfooter.js"></script>
+</body>
+
+</html>
