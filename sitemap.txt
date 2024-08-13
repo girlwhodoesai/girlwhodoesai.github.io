@@ -1,3 +1,5 @@
+https://girlwhodoesai.github.io/general/git.html
+https://girlwhodoesai.github.io/general/github.html
 https://girlwhodoesai.github.io/APCSP/codingrubric.html
 https://girlwhodoesai.github.io/APCSP/Challenge-1.html
 https://girlwhodoesai.github.io/APCSP/AAP-1.A.html
@@ -14,3 +16,6 @@ https://girlwhodoesai.github.io/APCSP/AAP-2.G.html
 https://girlwhodoesai.github.io/APCSP/index.html
 https://girlwhodoesai.github.io/APCSA/index.html
 https://girlwhodoesai.github.io/APCSA/variables.html
+https://girlwhodoesai.github.io/APCSA/expressions.html
+https://girlwhodoesai.github.io/APCSA/operators.html
+https://girlwhodoesai.github.io/APCSA/casting.html
