@@ -19,3 +19,7 @@ https://girlwhodoesai.github.io/APCSA/variables.html
 https://girlwhodoesai.github.io/APCSA/expressions.html
 https://girlwhodoesai.github.io/APCSA/operators.html
 https://girlwhodoesai.github.io/APCSA/casting.html
+https://girlwhodoesai.github.io/ap-statistics/
+https://girlwhodoesai.github.io/ap-statistics/onevariabledata.html
+https://girlwhodoesai.github.io/ap-statistics/onevariabledata2.html
+https://girlwhodoesai.github.io/ap-statistics/onevariabledata3.html
