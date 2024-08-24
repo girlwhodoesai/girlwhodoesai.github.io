@@ -24,3 +24,5 @@ https://girlwhodoesai.github.io/ap-statistics/onevariabledata.html
 https://girlwhodoesai.github.io/ap-statistics/onevariabledata2.html
 https://girlwhodoesai.github.io/ap-statistics/onevariabledata3.html
 https://girlwhodoesai.github.io/ap-statistics/twovariabledata.html
+https://girlwhodoesai.github.io/ap-statistics/unit1quiz.html
+https://girlwhodoesai.github.io/ap-statistics/unit2quiz.html
